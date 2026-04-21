@@ -224,3 +224,4 @@ int commit_create(const char *message, ObjectID *commit_id_out) {
     // atomic pointer swing that makes the commit visible to `pes log`.
     return head_update(commit_id_out);
 }
+// commit_create: links to parent via head_read
