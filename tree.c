@@ -213,3 +213,4 @@ int tree_from_index(ObjectID *id_out) {
     return build_tree_level(index.entries, 0, index.count, 0, id_out);
 }
 // tree_from_index: builds hierarchy from staged files
+// tree_serialize: sorts entries for deterministic hashing
