@@ -199,3 +199,4 @@ int index_add(Index *index, const char *path) {
     return index_save(index);
 }
 // index_save: fsync before rename for durability
+// index_load: strips newlines and validates path length
