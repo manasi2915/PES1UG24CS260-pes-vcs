@@ -226,3 +226,4 @@ int commit_create(const char *message, ObjectID *commit_id_out) {
 }
 // commit_create: links to parent via head_read
 // commit_create: populates author and timestamp
+// commit_create: atomic HEAD update via head_update
