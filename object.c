@@ -193,3 +193,4 @@ int object_read(const ObjectID *id, ObjectType *type_out, void **data_out, size_
 // object_write: stores blob/tree/commit with SHA-256 hash
 // object_read: verifies integrity by recomputing hash
 // atomic write using temp file and rename
+// type header: blob/tree/commit size\0
