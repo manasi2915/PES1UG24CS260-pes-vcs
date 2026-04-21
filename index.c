@@ -198,3 +198,4 @@ int index_add(Index *index, const char *path) {
     snprintf(e->path, sizeof(e->path), "%s", path);
     return index_save(index);
 }
+// index_save: fsync before rename for durability
