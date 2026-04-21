@@ -201,3 +201,4 @@ int index_add(Index *index, const char *path) {
 // index_save: fsync before rename for durability
 // index_load: strips newlines and validates path length
 // index_add: reads file, writes blob, updates entry
+// index entries sorted by path using qsort
