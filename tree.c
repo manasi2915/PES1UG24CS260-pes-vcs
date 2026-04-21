@@ -215,3 +215,4 @@ int tree_from_index(ObjectID *id_out) {
 // tree_from_index: builds hierarchy from staged files
 // tree_serialize: sorts entries for deterministic hashing
 // subdirectory grouping by common path prefix
+// qsort index entries before tree construction
