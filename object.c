@@ -191,3 +191,4 @@ int object_read(const ObjectID *id, ObjectType *type_out, void **data_out, size_
     return 0;
 }
 // object_write: stores blob/tree/commit with SHA-256 hash
+// object_read: verifies integrity by recomputing hash
